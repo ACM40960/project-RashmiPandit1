@@ -77,7 +77,7 @@ cnn_model.compile(
 
 n_training_pics = 250
 n_validation_pics = 150
-batch_size = 10
+batch_size = 100
 
 n_steps_epoch = n_training_pics / batch_size
 n_validation_steps = n_validation_pics / batch_size
