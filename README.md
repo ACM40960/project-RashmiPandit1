@@ -11,7 +11,7 @@ The basic requirements in which the project was made were:
 - System type: 64- bit operating system
 - 8 GB SDRAM
 
-### Install Python and the Prereuisites
+### Install Python and the Pre-requisites
 
 To use python , one can download it from the below link :
 https://www.python.org/downloads/release/python-3105/ 
