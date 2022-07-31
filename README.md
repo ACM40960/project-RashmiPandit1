@@ -44,7 +44,7 @@ It contains test, train and validation datasets. All the images from the dataset
 their type and number of the image.For example :- muffin_401.png, chihuahua_34.png etc.
 
 Detector.py : trains the CNN, saves the model in vgg19_chihuahua_vs_muffin.h5, and queries the model
-Then, we need to run the Detector.py file for training and validating the program.
+Then, we need to run the Detector.py file for training and validating the program. We use CNN and tenserflow in this program file.
 
 Note : The first time we run the Detector.py file it is going to take around 1 or 2 minutes.
 
@@ -64,7 +64,7 @@ Enter a valid instance id
 2. Valid id's for muffin 1-500 (if 2 is entered)
 
 
-Once, we have selected teh inputs we want, the program will output the result. It will display the probabality and predict the outcome of the selected picture, whether it is 
+Once, we have selected the inputs we want, the program will output the result. It will display the probabality and predict the outcome of the selected picture, whether it is 
 a chihuahua or a muffin. For example like below :
 ![image](https://user-images.githubusercontent.com/92164111/182050371-066dcabb-a2a7-4bf6-a7ae-cfd11d77036c.png)
 
