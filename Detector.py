@@ -2,7 +2,7 @@ import os
 import matplotlib.pyplot as m_plt
 import tensorflow as tf
 import numpy as np
-import Detection
+#import Detection
 
 type1 = "chihuahua"
 type2 = "muffin"
@@ -125,37 +125,5 @@ print("\nTest Accuracy :", test_accuracy)
 class_labels_map = train_generator.class_indices
 print("\nClasses : ", class_labels_map)
 
-'''
-path_id = 0
-path_name = ""
-photo_id = 0
 
-while path_id != 3:
-    print("Choose Selector: ")
-    print("1. " + type1)
-    print("2. " + type2)
-    print("3. Exit\n")
-    path_id = int(input())
-
-    if path_id == 1:
-        path_name = type1
-        print("Valid id's for " + type1 + " 1-900")
-        photo_id = int(input())
-        if 1 <= photo_id <= 900:
-            Detection.detection(cnn_model, class_labels_map, path_name, photo_id)
-        else:
-            print("Choose a valid photo id!")
-    elif path_id == 2:
-        path_name = type2
-        print("Valid id's for "+ type2 + " 1-500")
-        photo_id = int(input())
-        if 1 <= photo_id <= 500:
-            Detection.detection(cnn_model, class_labels_map, path_name, photo_id)
-        else:
-            print("Choose a valid instance id!")
-    elif path_id == 3:
-        break
-    else:
-        print("Choose a valid option!")
-'''
 m_plt.show()
